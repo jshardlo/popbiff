@@ -467,7 +467,6 @@ class PopBiffTipText  extends JWindow
 		int posY = fr.getY() + y;
 		setLocation(posX, posY);
 		setVisible(true);
-		show();
 	}
 }
 
@@ -662,7 +661,7 @@ class aboutWindow implements ActionListener
 		f = new JFrame("About popbiff");
 		JPanel p = new JPanel();
 		TextArea t = new TextArea(
-"popbiff 1.12\n\nWritten by John Shardlow and Kev Hall\n\nLast Updated 18 January 2007\n\nA program to check multiple POP mailboxes \nand report the number of unread messages"
+"popbiff 1.13\n\nWritten by John Shardlow and Kev Hall\n\nLast Updated 11 February 2019\n\nA program to check multiple POP mailboxes \nand report the number of unread messages"
 			,9,40);
 		f.setSize(360,275);
 		p.setSize(360,275);
@@ -705,7 +704,7 @@ class PasswordDialog extends JFrame implements ActionListener
 	    addButtonBar();
 
         setSize(200,100);
-        show();
+        setVisible(true);
     }
 
 
