@@ -439,7 +439,7 @@ class POPAccount extends Thread implements MouseListener, ActionListener
             if(action.equals("OK")) {
                 this.pass = pwd.getPassword();
                 pwd.dispose();
-                this.numMails = 0;
+                this.numMails = checkForMail();
                 popbiffWindow.instance().updateAccount(this, numMails);
             }
         }
