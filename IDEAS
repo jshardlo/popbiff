@@ -1,5 +1,8 @@
 Some ideas to improve popbiff
 
 Add support for SSL (don't like sending passwords in plain text anymore!)
+DONE
 
 Update to remove deprecated classes based on Java 8
+PARTIALLY DONE
+
